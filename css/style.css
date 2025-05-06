@@ -4,3 +4,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* debug */
+.debug {
+
+/* header */
+    .status-bar {
+        background-color: #ADD8E6 ;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .logo, .link, .login { 
+        background-color: #DBA521;
+        border: 1px dotted #000000;
+        padding: 5px;
+    }
+    .logo {
+        width: 15%;
+    }
+    .link {
+        width: 70%;
+        text-align: center;
+        padding: 5px;
+    }
+    .login {
+        width: 15%;
+        text-align: end;
+    }
+    .banner { 
+    background-color: #08008B ;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    }
+    .banner-conteiner {
+        background-color: #EE82EE;
+        border: 1px dotted #000000;
+        padding: 5px;
+        height: 300px;
+        display: flex;
+        width: 900px;
+        justify-content: center;
+    }
+
+    /* main */
+}
+
